@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive-Cu</title>
+
+    <link rel="stylesheet" href="Styles/headers.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    
+
+    <!--Google Links Forms-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo-div">
+            <img class="logo" src="Images/Blue Modern Letter C Tech Logo Design (4).png" alt="">
+        </div>
+
+        <div class="navBar-Div">
+            <ul>
+                <li><a href="#" class="features text-edit">Features</a></li>
+                <li><a href="#video-section" class="how-it work text-edit">How It Works</a></li>
+                <li><a href="#Pricing" class="pricing text-edit">Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <section class="second-heading">
+            <div class="second-heading-container">
+                <h1 class="second-sech4">Handcrafted, home-made masterpices</h1>
+                <input type="email" name="emain" id="email" placeholder="Enter your email address" required autocomplete="off">
+                <button id="getStarted" onclick="pricessUserInfo()">GET STARTED</button>
+            </div>
+        </section>
+
+        <section class="third-section">
+            <div class="third-section-Container">
+                <div class="Premium-Materials Start-Finish">
+                    <div class="icon-div">
+                        <img class="icon-img"  src="Images/Icons/icons8-premium-96.png" alt="Premium Icon" srcset="">
+                    </div>
+                    <div>
+                        <h3 class="heading-h3">Premium Materials</h3>
+                        <p class="detail-text">Our trombones use the shiniest brass which is 
+                            sourced locally. This will increase the 
+                            longevity of your purchase.
+                        </p>
+                    </div>
+                </div>
+                <div class="Fast-Shipping Start-Finish">
+                    <div class="icon-div">
+                        <img class="icon-img" src="Images/Icons/icons8-delivery-truck-96.png" alt="Delivery Truck" srcset="">
+                    </div>
+                    <div>
+                        <h3 class="heading-h3">Fast Shipping</h3>
+                        <p class="detail-text">We make sure you receive your trombone
+                            as soon as we have finish making it. We also
+                            provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="Quality-Assurance Start-Finish">
+                    <div class="icon-div">
+                        <img class="icon-img"  src="Images/Icons/icons8-quality-assurance-64 (1).png" alt="Quality Icons" srcset="">
+                    </div>
+                        <div>
+                        <h3 class="heading-h3">Quality Assurance</h3>
+                        <p class="detail-text">For every purchase you make, we will ensure
+                            there are no damanges or faults and we will check
+                            and test the pitch of your instrument.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section" id="video-section">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="Pricing" id="Pricing">
+            <div class="price-Container">
+                <div class="TENOR-TROMBONE-div tenor-div">
+                    <div class="Tenor-Text">
+                        <h4 class="trombone-h4">TENOR TROMBONE</h4>
+                        <p class="trombone-price">$600</p>
+                        <p class="para">Versatility</p>
+                        <p class="para">Melodic Role</p>
+                        <p class="para">Harmonic Support</p>
+                        <p class="para">Dynamic Range</p>
+                        <p class="para">Ensemble Backbone</p>
+                        <input id="select-btn"  type="button" value="SELECT">
+                    </div>
+                </div>
+                <div class="tenor-div">
+                    <h4 class="trombone-h4">BASS TROMBONE</h4>
+                        <p class="trombone-price">$900</p>
+                        <p class="para">Low-End Foundation</p>
+                        <p class="para">Extended Range</p>
+                        <p class="para">Contrast and Texture</p>
+                        <p class="para">Dynamic Depth</p>
+                        <p class="para">Solo and Ensemble Role</p>
+                        <input id="select-btn"  type="button" value="SELECT">
+                </div>
+                <div class="tenor-div">
+                    <h4 class="trombone-h4">VALVE TROMBONE</h4>
+                        <p class="trombone-price">$1200</p>
+                        <p class="para">Smooth Transitions</p>
+                        <p class="para">Accessible Technique</p>
+                        <p class="para">Versatility</p>
+                        <p class="para">Expressive Playing</p>
+                        <p class="para">Alternative Sound</p>
+                        <input id="select-btn" type="button" value="SELECT">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="first-chile-div">
+                    <p class="footer-p p-privace">Privacy</p>
+                    <p class="footer-p">Terms</p>
+                    <p class="footer-p p-contact">Contact</p>
+                </div>
+                <div class="copy-right">
+                    <p class="copy-p">&copy; 2023 <span>Lama Gonpul</span></p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
